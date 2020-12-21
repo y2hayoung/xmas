@@ -1,0 +1,174 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>2020년을 보내며</title>
+
+    <link rel="shortcut icon" href="https://www.favicon.cc/logo3d/574560.png">
+
+    <meta property="og:image" content="https://www.myarklamiss.com/wp-content/uploads/sites/15/2019/11/Christmas.jpg">
+    <meta property="og:title" content="하영이가 보내는 연말카드">
+    <meta property="og:description" content="코로나야 꺼져버려">
+    
+    <script src="https://s3.ap-northeast-2.amazonaws.com/materials.spartacodingclub.kr/xmas/snow.js">
+    </script>
+   <link rel="preconnect" href="https://fonts.gstatic.com">
+   <link href="https://fonts.googleapis.com/css2?family=Hi+Melody&display=swap" rel="stylesheet">
+   
+
+    <style>
+        * {
+            font-family: 'Hi Melody', cursive;
+        }
+
+        body {
+            background-color: #9b070f;
+        }
+
+        .envelope {
+            width: 200px;
+            height: 200px;
+
+            background-image: url(https://pngimg.com/uploads/envelope/envelope_PNG18366.png);
+            background-size: cover;
+            background-position: center;
+
+            margin: 200px auto 0px auto;
+            
+            cursor: pointer;   
+        }
+
+        .envelope-msg {
+            color: white;
+            text-align: center;
+        }
+
+        .letter-close {
+            display: block;
+        }
+
+        .letter-open {
+            display: none;
+        }
+
+        .rtan {
+            background-color: white;
+
+            width: 200px;
+            height: 200px;
+
+            background-image: url('http://file3.instiz.net/data/file3/2018/03/17/f/0/f/f0fce1086ea5ad36cc62e6865ea72697.gif');
+            background-size: cover;
+            background-position: center;
+
+            margin: 100px auto 0px auto;
+
+            border-radius: 100px;
+            border: 5px solid white;
+            box-shadow: 0px 0px 10px 0px white;
+        }
+
+        h1 {
+            color: white;
+            text-align: center;
+
+            margin-top: 30px;
+            margin-bottom: 30px;
+        }
+
+        .messagebox {
+            background-color: ivory;
+
+            width: 400px;
+
+            margin: auto;
+
+            color: brown;
+
+            padding: 30px;
+
+            font-size: 20px;
+            line-height: 30px;
+
+            box-shadow: 0px 0px 10px 0px white;
+        }
+        .MH {
+            
+            font-size: 28px;
+            
+
+            }
+        .from {
+            text-align: right;
+            margin: 0px;
+        }
+
+        @media screen and (max-width: 760px) {
+            .messagebox {
+                width: 300px;
+                padding: 20px;
+            }
+        }
+
+        .rtan {
+
+            width: 150px;
+            height: 150px;
+            margin: 70px auto 0px auto;
+        }
+
+        h1 {
+
+            font-size: 28px;
+
+        }
+
+        .envelope {
+
+            margin: 150px auto 0px auto;
+
+        }
+    </style>
+
+    <script>
+        function open_letter(){
+
+            document.getElementsByClassName("letter-close")[0].style.display = 'none'
+            document.getElementsByClassName("letter-open")[0].style.display = 'block'
+        }
+
+        function go_rtan(){
+            alert('앗 어떻게 찾았지!?!?')
+            window.location.href='https://www.instagram.com/hayoung_y2h/';
+
+        }
+
+    </script>
+</head>
+
+<body>
+    <div class="letter-close">
+        <div class="envelope" onclick="open_letter()"></div>
+        <h2 class="envelope-msg">봉투를 열어봐!</h2>
+    </div>
+    <div class="letter-open">
+        <div class="rtan" onclick="go_rtan()">
+        </div>
+        <h1>2020년 수고 많았어요 :)</h1>
+        <div class="messagebox">
+            사랑하는 언니오빠친구들에게, <br />
+            <p class="MH"><b>&#9829;Merry Christmas and Happy New Year&#9829;</b></p>
+            코로나로 인해 만나지 못해 아쉽지만, <br />
+            언제나 건강히 행복하게 지내길 바래요 &#9786;<br />
+            올해도 너무너무 수고 많았고 <br />
+            내년에도 잘 부탁합니당 알라뷰 <br />
+            <p class="from">
+                2020.12 하영이가 &#128140;
+            </p>
+        </div>
+    </div>
+</body>
+
+</html>
